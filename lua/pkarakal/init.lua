@@ -1,9 +1,6 @@
 require("pkarakal.set")
 require("pkarakal.remap")
 
--- DO NOT INCLUDE THIS
--- vim.opt.rtp:append("~/personal/streamer-tools")
--- DO NOT INCLUDE THIS
 
 local augroup = vim.api.nvim_create_augroup
 local pkarakalGroup = augroup('pkarakal', {})
